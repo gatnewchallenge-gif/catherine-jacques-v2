@@ -76,14 +76,24 @@ export function Navbar() {
           >
             <div className="flex flex-col p-6 gap-4">
               {navLinks.map((link) => (
-                <a
-                  key={link.name}
-                  href={link.href}
-                  className="text-lg font-medium py-2 border-b border-border/50"
-                  onClick={() => setIsMobileMenuOpen(false)}
-                >
-                  {link.name}
-                </a>
+                <button
+  key={link.name}
+  type="button"
+  className="text-lg font-medium py-2 border-b border-border/50 text-left"
+  onClick={() => {
+    const id = link.href.replace('#', '')
+    const element = document.getElementById(id)
+
+    if (element) {
+  const y = element.getBoundingClientRect().top + window.scrollY - 100
+  window.scrollTo({ top: y, behavior: 'smooth' })
+}
+
+    setIsMobileMenuOpen(false)
+  }}
+>
+  {link.name}
+</button>
               ))}
               <div className="flex gap-4 mt-4">
                 <Button className="flex-1 rounded-none">Rendez-vous</Button>
