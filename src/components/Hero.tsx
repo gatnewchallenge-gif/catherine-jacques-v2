@@ -21,7 +21,7 @@ export function Hero() {
           />
         </video>
         {/* Dark Overlay */}
-        <div className="absolute inset-0 bg-black/35 z-10" />
+        <div className="absolute inset-0 bg-black/40 z-10" />
       </div>
 
       {/* Content */}
