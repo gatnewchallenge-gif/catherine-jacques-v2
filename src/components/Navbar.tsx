@@ -23,7 +23,21 @@ export function Navbar() {
     window.addEventListener('scroll', handleScroll)
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
+const scrollToSection = (href: string) => {
+  const id = href.replace('#', '')
+  const element = document.getElementById(id)
 
+  if (element) {
+    const y = element.getBoundingClientRect().top + window.scrollY - 100
+
+    window.scrollTo({
+      top: y,
+      behavior: 'smooth'
+    })
+  }
+
+  setIsMobileMenuOpen(false)
+}
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
@@ -43,13 +57,14 @@ export function Navbar() {
         {/* Desktop Nav */}
         <div className="hidden lg:flex items-center gap-8">
           {navLinks.map((link) => (
-            <a
-              key={link.name}
-              href={link.href}
-              className="text-sm font-medium hover:text-primary transition-colors uppercase tracking-wider"
-            >
-              {link.name}
-            </a>
+            <button
+  key={link.name}
+  type="button"
+  onClick={() => scrollToSection(link.href)}
+  className="text-sm font-medium hover:text-primary transition-colors uppercase tracking-wider"
+>
+  {link.name}
+</button>
           ))}
           <Button variant="primary" size="sm" className="rounded-none px-6">
             Prendre rendez-vous
@@ -80,17 +95,7 @@ export function Navbar() {
   key={link.name}
   type="button"
   className="text-lg font-medium py-2 border-b border-border/50 text-left"
-  onClick={() => {
-    const id = link.href.replace('#', '')
-    const element = document.getElementById(id)
-
-    if (element) {
-  const y = element.getBoundingClientRect().top + window.scrollY - 100
-  window.scrollTo({ top: y, behavior: 'smooth' })
-}
-
-    setIsMobileMenuOpen(false)
-  }}
+ onClick={() => scrollToSection(link.href)}
 >
   {link.name}
 </button>
