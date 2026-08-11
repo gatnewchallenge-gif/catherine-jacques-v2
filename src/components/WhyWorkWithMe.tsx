@@ -27,7 +27,7 @@ const features = [
 
 export function WhyWorkWithMe() {
   return (
-    <section id="why-me" className="py-24 md:py-32 bg-background">
+    <section id="why-me" className="pt-12 pb-24 md:pt-16 md:pb-32 bg-background">
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>

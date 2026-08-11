@@ -22,7 +22,7 @@ const services = [
 
 export function Services() {
   return (
-    <section id="services" className="pt-12 pb-24 md:pt-16 md:pb-32 bg-secondary/30">
+    <section id="services" className="py-12 md:py-16 bg-secondary/30">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="text-primary font-medium uppercase tracking-[0.2em] text-xs mb-4 inline-block">
