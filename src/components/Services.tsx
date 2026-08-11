@@ -22,7 +22,7 @@ const services = [
 
 export function Services() {
   return (
-    <section id="services" className="py-24 md:py-32 bg-secondary/30">
+    <section id="services" className="pt-12 pb-24 md:pt-16 md:pb-32 bg-secondary/30">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="text-primary font-medium uppercase tracking-[0.2em] text-xs mb-4 inline-block">
@@ -32,7 +32,7 @@ export function Services() {
             Un accompagnement sur-mesure
           </h2>
           <p className="text-muted-foreground text-lg">
-            Que vous soyez vendeur, acquéreur ou investisseur, je mets mon expertise à votre service pour concrétiser vos projets les plus ambitieux.
+            Que vous soyez vendeur, acquéreur ou investisseur, nous mettons notre expertise à votre service pour concrétiser vos projets immobiliers les plus ambitieux.
           </p>
         </div>
 
@@ -71,4 +71,3 @@ export function Services() {
     </section>
   )
 }
-

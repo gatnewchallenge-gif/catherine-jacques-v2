@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 
 export function About() {
   return (
-    <section id="about" className="py-24 md:py-32 bg-background overflow-hidden">
+    <section id="about" className="pt-24 pb-12 md:pt-32 md:pb-16 bg-background overflow-hidden">
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Image Column */}
