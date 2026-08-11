@@ -16,8 +16,8 @@ export function About() {
           >
             <div className="aspect-[4/5] relative z-10 overflow-hidden transition-all duration-700">
               <img
-                src="/images/catherine.png"
-                alt="Catherine Jacques"
+                src="/Sarah.png"
+                alt="Sarah B., fondatrice de Maison Signature"
                 
                 className="w-full h-full object-cover"
               />
@@ -44,10 +44,10 @@ export function About() {
             </h2>
             <div className="space-y-6 text-muted-foreground leading-relaxed text-lg">
               <p>
-                Passionnée par l'immobilier et le contact humain, j'ai choisi d'exercer ce métier avec une vision différente : placer l'humain au cœur de chaque transaction.
+                Fondatrice de Maison Signature, Sarah B. exerce son métier avec une vision différente : placer l'humain au cœur de chaque transaction immobilière premium.
               </p>
               <p>
-                Mon rôle dépasse la simple mise en relation. Je suis votre partenaire de confiance, celle qui vous écoute, comprend vos enjeux et vous accompagne avec une expertise pointue du marché de Val d'Europe et ses environs.
+                Son rôle dépasse la simple mise en relation. À l'écoute de vos besoins, elle vous accompagne en toute confiance avec une expertise pointue du marché de Val d'Europe et ses environs.
               </p>
             </div>
 
