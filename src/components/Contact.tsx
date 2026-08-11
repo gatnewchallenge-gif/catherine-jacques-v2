@@ -49,7 +49,7 @@ export function Contact() {
                   <label className="text-xs uppercase tracking-widest font-semibold opacity-70">Message</label>
                   <textarea 
                     rows={4}
-                    placeholder="Comment puis-je vous aider ?"
+                    placeholder="Comment pouvons-nous vous aider ?"
                     className="w-full bg-secondary/50 border-none px-4 py-3 focus:ring-1 focus:ring-primary outline-none transition-all resize-none"
                   />
                 </div>
@@ -70,7 +70,7 @@ export function Contact() {
                     </div>
                     <div>
                       <p className="text-[10px] uppercase tracking-widest opacity-70 mb-1">Téléphone</p>
-                      <a href="tel:+33600000000" className="text-lg font-medium hover:underline underline-offset-4">+33 6 00 00 00 00</a>
+                      <a href="tel:+33600000000" className="text-lg font-medium hover:underline underline-offset-4">+33 6 52 67 22 57</a>
                     </div>
                   </div>
                   <div className="flex items-start gap-4 group">
@@ -79,7 +79,7 @@ export function Contact() {
                     </div>
                     <div>
                       <p className="text-[10px] uppercase tracking-widest opacity-70 mb-1">Email</p>
-                      <a href="mailto:contact@catherine-jacques.fr" className="text-lg font-medium hover:underline underline-offset-4">contact@catherine-jacques.fr</a>
+                      <a href="mailto:contact@catherine-jacques.fr" className="text-lg font-medium hover:underline underline-offset-4">contact@maison-signature.fr</a>
                     </div>
                   </div>
                   <div className="flex items-start gap-4 group">
@@ -95,7 +95,7 @@ export function Contact() {
               </div>
 
               <div className="mt-12">
-                <p className="text-[10px] uppercase tracking-widest opacity-70 mb-6">Suivez-moi</p>
+                <p className="text-[10px] uppercase tracking-widest opacity-70 mb-6">Suivez-nous</p>
                 <div className="flex gap-4">
                   {[
                     { icon: Globe, href: '#' },

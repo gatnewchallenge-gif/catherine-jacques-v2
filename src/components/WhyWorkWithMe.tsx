@@ -20,7 +20,7 @@ const features = [
   },
   {
     title: 'Disponibilité et réactivité',
-    description: 'Une flexibilité maximale pour m\'adapter à vos contraintes et saisir les opportunités du marché.',
+    description: 'Une flexibilité maximale pour s\'adapter à vos contraintes et saisir les opportunités du marché.',
     icon: Zap,
   },
 ]
@@ -32,14 +32,14 @@ export function WhyWorkWithMe() {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
             <span className="text-primary font-medium uppercase tracking-[0.2em] text-xs mb-4 inline-block">
-              Pourquoi moi ?
+              Pourquoi nous ?
             </span>
             <h2 className="text-3xl md:text-5xl font-heading font-bold mb-8 leading-tight text-foreground">
               L'excellence immobilière <br />
               <span className="italic font-normal">au service de vos rêves</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-8 max-w-xl">
-              Choisir Catherine Jacques, c'est s'assurer une tranquillité d'esprit totale et une valorisation optimale de votre patrimoine immobilier.
+              Choisir Maison Signature, c'est s'assurer une tranquillité d'esprit totale et une valorisation optimale de votre patrimoine immobilier.
             </p>
             <div className="relative aspect-video overflow-hidden">
                <img 

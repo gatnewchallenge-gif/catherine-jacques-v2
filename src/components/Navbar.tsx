@@ -47,10 +47,10 @@ const scrollToSection = (href: string) => {
       <div className="container mx-auto px-4 md:px-6 flex items-center justify-between">
         <div className="flex flex-col">
           <span className="text-xl md:text-2xl font-heading font-bold tracking-tight text-foreground">
-            Catherine Jacques
+            Maison Signature
           </span>
           <span className="text-[10px] md:text-xs uppercase tracking-[0.2em] text-primary font-medium">
-            Consultante en immobilier
+            CONSEIL & IMMOBILIER PREMIUM
           </span>
         </div>
 
