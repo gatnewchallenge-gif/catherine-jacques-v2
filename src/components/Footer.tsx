@@ -8,10 +8,10 @@ export function Footer() {
           <div className="col-span-1 lg:col-span-1">
             <div className="flex flex-col mb-6">
               <span className="text-xl font-heading font-bold tracking-tight text-foreground">
-                Catherine Jacques
+                Maison Signature
               </span>
               <span className="text-[10px] uppercase tracking-[0.2em] text-primary font-medium">
-                Consultante en immobilier
+                Conseil & Immobilier Premium
               </span>
             </div>
             <p className="text-muted-foreground text-sm italic mb-6">
@@ -51,7 +51,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-border/50 pt-8 flex flex-col md:row items-center justify-between gap-4 text-[10px] uppercase tracking-[0.2em] text-muted-foreground">
-          <p>© {new Date().getFullYear()} Catherine Jacques. Tous droits réservés.</p>
+          <p>© {new Date().getFullYear()} Maison Signature. Tous droits réservés.</p>
           <div className="flex gap-6">
             <a href="#" className="hover:text-primary transition-colors">Site Web</a>
             <a href="#" className="hover:text-primary transition-colors">LinkedIn</a>
