@@ -5,7 +5,7 @@ import { Phone, Mail, MessageCircle, Calendar, MapPin, Globe, Share2, Users } fr
 
 export function Contact() {
   return (
-    <section id="contact" className="py-24 md:py-32 bg-secondary/30">
+    <section id="contact" className="pt-12 pb-24 md:pt-16 md:pb-32 bg-secondary/30">
       <div className="container mx-auto px-4 md:px-6">
         <div className="max-w-6xl mx-auto bg-background shadow-2xl overflow-hidden">
           <div className="grid lg:grid-cols-2">

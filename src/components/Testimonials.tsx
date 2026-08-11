@@ -6,26 +6,26 @@ const testimonials = [
   {
     name: 'Famille Morel',
     role: 'Vendeurs à Serris',
-    content: 'Catherine a su valoriser notre maison avec une élégance rare. Son professionnalisme et son écoute ont fait toute la différence. Une vente rapide et sereine.',
+    content: 'Maison Signature a su valoriser notre maison avec beaucoup de soin. L’écoute, le professionnalisme et l’accompagnement ont fait toute la différence. Une vente réalisée rapidement et en toute sérénité.',
     avatar: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=200&auto=format&fit=crop',
   },
   {
     name: 'Thomas & Julie',
     role: 'Acquéreurs à Chessy',
-    content: 'Nous cherchions depuis des mois sans succès. Catherine a trouvé notre coup de cœur en seulement deux semaines. Son réseau est impressionnant.',
+    content: 'Nous cherchions depuis plusieurs mois sans trouver le bien qui nous correspondait. Maison Signature a parfaitement compris nos attentes et nous a accompagnés jusqu’à notre coup de cœur. Une recherche efficace et rassurante.',
     avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop',
   },
   {
     name: 'Marc L.',
     role: 'Investisseur patrimonial',
-    content: 'Une expertise du marché local hors pair. Catherine Jacques est bien plus qu\'une consultante, c\'est une stratège de l\'immobilier de confiance.',
+    content: 'Une excellente connaissance du marché local et une vraie compréhension de mes objectifs. Maison Signature m’a accompagné avec méthode et pertinence dans mes décisions. Un conseil précieux pour mon projet d’investissement.',
     avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=200&auto=format&fit=crop',
   },
 ]
 
 export function Testimonials() {
   return (
-    <section id="testimonials" className="py-24 md:py-32 bg-background">
+    <section id="testimonials" className="py-12 md:py-16 bg-background">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="text-primary font-medium uppercase tracking-[0.2em] text-xs mb-4 inline-block">
