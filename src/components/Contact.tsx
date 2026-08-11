@@ -19,7 +19,7 @@ export function Contact() {
               <h2 className="text-3xl md:text-5xl font-heading font-bold mb-8 text-foreground leading-tight">
                 Parlons de votre projet immobilier
               </h2>
-              <form action="https://formsubmit.co/contact.techsolidaires.ai@gmail.com" method="POST" className="space-y-6">
+              <form action="https://formsubmit.co/aa04732ac593c5130f99647083df3e92" method="POST" className="space-y-6">
                 <input type="hidden" name="_subject" value="Nouvelle demande - Maison Signature" />
                 <input type="hidden" name="_captcha" value="false" />
                 <input type="hidden" name="_template" value="table" />
