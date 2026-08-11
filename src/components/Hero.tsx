@@ -4,6 +4,19 @@ import { Button } from '@blinkdotnew/ui'
 import { ChevronDown } from 'lucide-react'
 
 export function Hero() {
+  const scrollToSection = (id: string) => {
+    const element = document.getElementById(id)
+
+    if (element) {
+      const y = element.getBoundingClientRect().top + window.scrollY - 100
+
+      window.scrollTo({
+        top: y,
+        behavior: 'smooth'
+      })
+    }
+  }
+
   return (
     <section className="relative h-screen w-full overflow-hidden flex items-center justify-center text-white">
       {/* Video Background */}
@@ -40,12 +53,13 @@ export function Hero() {
             <span className="italic font-normal">valeur ajoutée</span>
           </h1>
           <p className="text-lg md:text-xl font-light mb-10 max-w-2xl opacity-90 leading-relaxed">
-            J'accompagne vendeurs, acquéreurs et investisseurs sur le secteur de Val d'Europe et ses environs avec une approche fondée sur l'écoute, la confiance et l'expertise.
+            Nous accompagnons les vendeurs, acquéreurs et investisseurs sur le secteur de Val d'Europe et ses environs avec une approche fondée sur l'écoute, la confiance et l'expertise.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
             <Button 
               variant="primary" 
               size="lg" 
+              onClick={() => scrollToSection('contact')}
               className="rounded-none bg-white text-black hover:bg-white/90 border-none px-8 py-6 text-base font-medium"
             >
               Prendre rendez-vous
@@ -53,9 +67,10 @@ export function Hero() {
             <Button 
               variant="outline" 
               size="lg" 
+              onClick={() => scrollToSection('services')}
               className="rounded-none border-white text-white hover:bg-white/10 px-8 py-6 text-base font-medium"
             >
-              Découvrir mes services
+              Découvrez nos services
             </Button>
           </div>
         </motion.div>
