@@ -23,7 +23,7 @@ export function Contact() {
                 <input type="hidden" name="_subject" value="Nouvelle demande - Maison Signature" />
                 <input type="hidden" name="_captcha" value="false" />
                 <input type="hidden" name="_template" value="table" />
-                <input type="hidden" name="_next" value="https://catherine-jacques-v2.vercel.app/?sent=1#contact" />
+                <input type="hidden" name="_next" value="https://maison-signature.vercel.app/?sent=1#contact" />
                 {isSubmitted && (
                   <p role="status" className="text-sm text-primary">
                     Merci, votre demande a bien été envoyée. Nous vous répondrons dans les meilleurs délais.
