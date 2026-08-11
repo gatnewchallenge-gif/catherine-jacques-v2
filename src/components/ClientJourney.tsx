@@ -10,30 +10,30 @@ const steps = [
   {
     number: '02',
     title: 'Analyse des besoins',
-    description: 'Une étude détaillée du marché et de la faisabilité pour définir une stratégie gagnante.',
+    description: 'Une étude détaillée du marché et de la faisabilité pour définir une stratégie adaptée.',
   },
   {
     number: '03',
     title: 'Accompagnement personnalisé',
-    description: 'Un suivi quotidien, de la mise en valeur du bien aux visites et négociations.',
+    description: 'Un suivi attentif, de la mise en valeur du bien aux visites et négociations.',
   },
   {
     number: '04',
     title: 'Réalisation du projet',
-    description: 'Signature de l\'acte authentique et remise des clés. Votre satisfaction est ma réussite.',
+    description: 'Signature de l\'acte authentique et remise des clés. Nous restons à vos côtés jusqu\'à l\'aboutissement de votre projet.',
   },
 ]
 
 export function ClientJourney() {
   return (
-    <section id="journey" className="py-24 md:py-32 bg-secondary/20">
+    <section id="journey" className="py-12 md:py-16 bg-secondary/20">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center max-w-3xl mx-auto mb-20">
           <span className="text-primary font-medium uppercase tracking-[0.2em] text-xs mb-4 inline-block">
             Votre Parcours
           </span>
           <h2 className="text-3xl md:text-5xl font-heading font-bold mb-6 text-foreground">
-            Les étapes de votre succès
+            Les étapes de votre projet
           </h2>
           <p className="text-muted-foreground text-lg">
             Une méthodologie rigoureuse pour une expérience fluide et sans stress.
