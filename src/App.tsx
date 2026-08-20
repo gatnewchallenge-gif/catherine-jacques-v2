@@ -9,6 +9,8 @@ import { Testimonials } from './components/Testimonials'
 import { Contact } from './components/Contact'
 import { Footer } from './components/Footer'
 import { MobileStickyBar } from './components/MobileStickyBar'
+import { ScrollToTopButton } from './components/ScrollToTopButton'
+import { FloatingWhatsAppButton } from './components/FloatingWhatsAppButton'
 
 export default function App() {
   useEffect(() => {
@@ -51,6 +53,8 @@ export default function App() {
         <Contact />
       </main>
       <Footer />
+      <ScrollToTopButton />
+      <FloatingWhatsAppButton />
       <MobileStickyBar />
     </div>
   )
